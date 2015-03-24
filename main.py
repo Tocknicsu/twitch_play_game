@@ -3,6 +3,7 @@ from datetime import datetime
 import time
 import sys
 import keypress
+import operator
 class IRC_WITH_GAME:
     Input = MyInput()
     Input_generator = Input.getdata()
@@ -37,6 +38,7 @@ class IRC_WITH_GAME:
                     self.cmd.append(MSG)
 
     def Mode(self):
+        command = ["up", "down", "left", "right", "a", "b", "enter", "select", "l", "r"]
         mode = self.mode
         key = []
         if mode == 0:
@@ -44,8 +46,17 @@ class IRC_WITH_GAME:
                 key = key + (self.parse(x["msg"]))
         elif mode == 1:
             if self.last_exec_time_s + self.wait_time >= time.time(): return
+            ele = []
+            tmp = {}
             for x in self.cmd:
-                key = key + (self.parse(x["msg"]))
+                ele = ele + (self.parse(x["msg"]))
+            for x in command:
+                tmp[x] = 0
+            for x in ele:
+                tmp[x] += 1
+            max_cmd = max(tmp.items(), key=operator.itemgetter(1))[0]
+            if tmp[max_cmd] > 0:
+                key.append(max_cmd)
         elif mode == 2:
             if self.last_exec_time == self.now(): return
 
@@ -64,7 +75,7 @@ class IRC_WITH_GAME:
     def parse(self, data):
         data = data.lower();
         re = [];
-        command = ["up", "down", "left", "right", "a", "b", "enter", "select", "u", "d", "l", "r"]
+        command = ["up", "down", "left", "right", "a", "b", "enter", "select", "l", "r"]
         while len(data):
             flag = 0
             for x in command:
