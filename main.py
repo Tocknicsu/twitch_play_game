@@ -64,7 +64,7 @@ class IRC_WITH_GAME:
     def parse(self, data):
         data = data.lower();
         re = [];
-        command = ["up", "down", "left", "right", "a", "b", "enter", "select"]
+        command = ["up", "down", "left", "right", "a", "b", "enter", "select", "u", "d", "l", "r"]
         while len(data):
             flag = 0
             for x in command:

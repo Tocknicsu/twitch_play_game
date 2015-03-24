@@ -6,10 +6,14 @@ keymp = {
         "right": "Right",
         "a": "z",
         "b": "x",
-        "l": "a",
-        "r": "s",
+        #"l": "a",
+        #"r": "s",
         "select": "q",
-        "enter": "w"
+        "enter": "w",
+        "u": "Up",
+        "d": "Down",
+        "l": "Left",
+        "r": "Right"
         }
 
 
