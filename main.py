@@ -70,10 +70,10 @@ class IRC_WITH_GAME:
 
 
     def now(self):
-        return datetime.strftime(datetime.now(), "%Y-%m-%d %H:%M:%S");
+        return datetime.strftime(datetime.now(), "%Y-%m-%d %H:%M:%S")
 
     def parse(self, data):
-        data = data.lower();
+        data = data.lower()
         re = [];
         command = ["up", "down", "left", "right", "a", "b", "enter", "select", "l", "r"]
         while len(data):
