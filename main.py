@@ -59,6 +59,9 @@ class IRC_WITH_GAME:
                 key.append(max_cmd)
         elif mode == 2:
             if self.last_exec_time == self.now(): return
+            #for x in self.cmd:
+            #    ele = self.parse(x["msg"])
+
 
         for x in key:
             keypress.press(x, 250)
