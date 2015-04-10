@@ -1,0 +1,77 @@
+2015/04/10 01:02:21 - wingemerald:1
+2015/04/10 01:03:02 - wingemerald:1
+2015/04/10 01:03:03 - Mode: 1
+2015/04/10 01:03:25 - stdin:exit
+2015/04/10 01:14:46 - wingemerald:up
+2015/04/10 01:14:46 - Mode: 0
+2015/04/10 01:14:49 - Mode: 0
+2015/04/10 01:14:52 - wingemerald:1
+2015/04/10 01:14:52 - Mode: 1
+2015/04/10 01:14:54 - wingemerald:up
+2015/04/10 01:14:59 - stdin:exit
+2015/04/10 01:15:23 - wingemerald:1
+2015/04/10 01:15:23 - Mode: 1
+2015/04/10 01:15:28 - wingemerald:upupupupdowndowndowndown
+2015/04/10 01:15:40 - stdin:exit
+2015/04/10 01:16:02 - stdin:exit
+2015/04/10 01:16:13 - wingemerald:upupupupupdowndown
+2015/04/10 01:16:20 - stdin:exit
+2015/04/10 01:18:28 - wingemerald:aaaaa
+2015/04/10 01:18:36 - wingemerald:aa
+2015/04/10 01:18:39 - wingemerald:aaaa
+2015/04/10 01:18:45 - wingemerald:down
+2015/04/10 01:18:51 - wingemerald:up
+2015/04/10 01:18:57 - wingemerald:updownupdonw
+2015/04/10 01:20:48 - wingemerald:upup
+2015/04/10 01:20:48 - wingemerald:upup
+2015/04/10 01:20:48 - [keydown]: up
+2015/04/10 01:20:48 - [keydown]: up
+2015/04/10 01:22:04 - stdin:exit
+2015/04/10 01:52:11 - Mode: 0
+2015/04/10 01:52:14 - Mode: 0
+2015/04/10 01:52:17 - Mode: 0
+2015/04/10 01:52:18 - stdin:exit
+2015/04/10 01:52:20 - Mode: 0
+2015/04/10 01:52:22 - stdin:exit
+2015/04/10 01:53:03 - Mode: 0
+2015/04/10 01:53:06 - Mode: 0
+2015/04/10 01:53:09 - Mode: 0
+2015/04/10 01:53:12 - Mode: 0
+2015/04/10 01:53:15 - Mode: 0
+2015/04/10 01:53:18 - Mode: 0
+2015/04/10 01:53:18 - stdin:exit
+2015/04/10 01:53:51 - Mode: 0
+2015/04/10 01:53:54 - Mode: 0
+2015/04/10 01:53:57 - Mode: 0
+2015/04/10 01:53:58 - stdin:exit
+2015/04/10 01:54:25 - Mode: 0
+2015/04/10 01:54:28 - Mode: 0
+2015/04/10 01:54:31 - Mode: 0
+2015/04/10 01:54:32 - stdin:exit
+2015/04/10 01:54:38 - stdin:exit
+2015/04/10 01:55:17 - wingemerald:1
+2015/04/10 01:55:17 - wingemerald:1
+2015/04/10 01:55:17 - wingemerald:1
+2015/04/10 01:55:18 - Mode: 1
+2015/04/10 01:55:24 - wingemerald:upupupuppup
+2015/04/10 01:55:24 - [keydown]: up
+2015/04/10 01:55:24 - [keydown]: up
+2015/04/10 01:55:24 - [keydown]: up
+2015/04/10 01:55:24 - [keydown]: up
+2015/04/10 01:55:24 - [keydown]: up
+2015/04/10 01:55:27 - stdin:exit
+2015/04/10 01:56:00 - wingemerald:1
+2015/04/10 01:56:00 - wingemerald:1
+2015/04/10 01:56:00 - wingemerald:1
+2015/04/10 01:56:01 - Mode: 1
+2015/04/10 01:56:03 - wingemerald:upupupupupup
+2015/04/10 01:56:04 - [keydown]: up
+2015/04/10 01:56:04 - [keydown]: up
+2015/04/10 01:56:04 - [keydown]: up
+2015/04/10 01:56:04 - [keydown]: up
+2015/04/10 01:56:04 - [keydown]: up
+2015/04/10 01:56:04 - [keydown]: up
+2015/04/10 01:56:09 - stdin:exit
+2015/04/10 01:59:15 - stdin:exit
+2015/04/10 02:00:01 - stdin:exit
+2015/04/10 02:00:12 - stdin:exit

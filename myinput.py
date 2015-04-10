@@ -4,7 +4,7 @@ import select
 import sys
 from datetime import datetime
 import logging
-logging.basicConfig( filename='input.log', level = logging.INFO, format='%(asctime)s - %(message)s', datefmt='%Y/%m/%d %I:%M:%S')
+logging.basicConfig( filename='twitch.log', level = logging.INFO, format='%(asctime)s - %(message)s', datefmt='%Y/%m/%d %I:%M:%S')
 class MyInput:
     t = None
     inputbuffer = None
